@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    *{
+      padding: 0;
+      margin: 0;
+    }
+    nav{
+      display: flex;
+      justify-content: center;
+      justify-content: space-evenly;
+      background-color: aqua;
+      height:75px ;
+      align-items: center;
+      
+    }
+     .parent{
+      height: 200px;
+      
+      display: flex;
+      justify-content: center;
+      justify-content: space-evenly;
+      align-items: center;
+      background-color: yellow;
+
+    }
+    .child1{
+      height: 100px;
+      width: 100px;   
+      background-color: white; 
+      transition: all;  
+      border:2px solid white ;
+    }
+    img{
+      height: 90px;
+      width: 90px;
+      
+    }
+    .child1:hover{
+      box-shadow: 0px 0px 10px gray;
+      border-radius: 2px;
+      
+      
+    }
+    
+  
+    h2:hover{
+      border-bottom: 10px 10px 10px red;
+    }
+    img:hover{
+      border-radius: 45%;
+    }
+
+
+  </style>
+</head>
+<body>
+
+  <nav>
+    <h2>Home</h2>
+    <h2>About</h2>
+    <h2>Contact</h2>
+    <h2>About</h2>
+  </nav>
+  <div class="parent">
+    
+    <div class="child1">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFw0P1WgjlCseCVwxksFKwTfcj4lfwAB1CUJTDoyTszP4gks8lak-5L_LcHTrtorY4Eko&usqp=CAU" alt="">
+    </div>
+
+    <div class="child1">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFw0P1WgjlCseCVwxksFKwTfcj4lfwAB1CUJTDoyTszP4gks8lak-5L_LcHTrtorY4Eko&usqp=CAU" alt="">
+
+    </div>
+
+  </div>
+
+</body>
+</html>
